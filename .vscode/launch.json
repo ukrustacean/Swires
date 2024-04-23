@@ -1,0 +1,52 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Swires}",
+            "name": "Debug swiftin",
+            "program": "${workspaceFolder:Swires}/.build/debug/swiftin",
+            "preLaunchTask": "swift: Build Debug swiftin"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Swires}",
+            "name": "Release swiftin",
+            "program": "${workspaceFolder:Swires}/.build/release/swiftin",
+            "preLaunchTask": "swift: Build Release swiftin"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Swires}",
+            "name": "Debug Swires",
+            "program": "${workspaceFolder:Swires}/.build/debug/Swires",
+            "preLaunchTask": "swift: Build Debug Swires"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:Swires}",
+            "name": "Release Swires",
+            "program": "${workspaceFolder:Swires}/.build/release/Swires",
+            "preLaunchTask": "swift: Build Release Swires"
+        }
+    ]
+}

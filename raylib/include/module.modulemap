@@ -1,0 +1,9 @@
+module raylib {
+  header "raylib.h"
+  export *
+
+  module math {
+    header "raymath.h"
+    export *
+  }
+}
